@@ -1,5 +1,4 @@
-public class GumballMachine
-{
+public class GumballMachine implements VendingMachine{
 
     private int num_gumballs;
     private boolean has_quarter;
@@ -11,14 +10,16 @@ public class GumballMachine
         this.has_quarter = false;
     }
 
-    public void insertQuarter(int coin)
+    @Override
+    public void insertCoin(int coin)
     {
         if ( coin == 25 )
             this.has_quarter = true ;
         else 
             this.has_quarter = false ;
     }
-    
+
+    @Override
     public void turnCrank()
     {
     	if ( this.has_quarter )
