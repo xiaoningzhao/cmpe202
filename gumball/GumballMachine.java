@@ -132,8 +132,6 @@ public class GumballMachine
         /** Type Three: Cost: 50 cents, Accepts quarters, dimes and nickels */
         GumballMachine machineTypeThree = new GumballMachine(10, 50, new COINTYPE[]{COINTYPE.QUARTER, COINTYPE.DIME, COINTYPE.NICKEL});
 
-
-
         /** Type one operation */
         System.out.println("Type 1 running:");
         machineTypeOne.insertCoin(COINTYPE.QUARTER);
