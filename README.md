@@ -11,7 +11,7 @@
   * Changed related function logics for different coins inserted.
  
  ##### Image of gumball machines:
- ![Image of gumball machines](https://github.com/ZhiyuanYaoZhiyuanYao/cmpe202/tree/homeworkMod/gumball/images)
+ ![Image of gumball machines](https://github.com/ZhiyuanYaoZhiyuanYao/cmpe202/blob/homeworkMod/gumball/images/gumball-machines.png)
  ##### Sample run of the program: Type 1,2 and 3 correspond to the above machines from left to right. 
  ![Image of screenshot](https://github.com/ZhiyuanYaoZhiyuanYao/cmpe202/blob/homeworkMod/gumball/images/samplerun.png)
  
